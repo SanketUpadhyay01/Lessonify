@@ -1,13 +1,13 @@
 export const preSchool = [
   {
-    id : 1,
+    id: 1,
     name: "Attention",
     questions: [
       "Has difficulty sustaining attention in play activities and work tasks",
     ],
   },
   {
-    id : 2,
+    id: 2,
     name: "Gross and Fine Motor Skills",
     questions: [
       "Dislikes and/or avoids writing and drawing tasks",
@@ -19,8 +19,9 @@ export const preSchool = [
       "Appears awkward and clumsy by dropping or spilling things, or knocking them over",
     ],
   },
+
   {
-    id : 3,
+    id: 3,
     name: "Language",
     questions: [
       "Demonstrates slow and halting speech, using lots of fillers (e.g., uh, um, and, you know, so)",
@@ -43,7 +44,7 @@ export const preSchool = [
     ],
   },
   {
-    id : 4,
+    id: 4,
     name: "Math",
     questions: [
       "Has trouble telling time (on either a digital or analog clock)",
@@ -55,7 +56,7 @@ export const preSchool = [
     ],
   },
   {
-    id : 5,
+    id: 5,
     name: "Reading",
     questions: [
       " Dislikes and/or avoids learning letters or reading",
@@ -76,7 +77,7 @@ export const preSchool = [
     ],
   },
   {
-    id : 6,
+    id: 6,
     name: "Social and Emotional  Skills",
     questions: [
       "Has difficulty ‘joining in’ and maintaining positive social status in a peer group",
@@ -85,7 +86,7 @@ export const preSchool = [
     ],
   },
   {
-    id : 7,
+    id: 7,
     name: "Written Language",
     questions: [
       "Has difficulty preparing outlines and organizing written assignments",
@@ -95,7 +96,7 @@ export const preSchool = [
     ],
   },
   {
-    id : 8,
+    id: 8,
     name: "Other",
     questions: [
       "Often loses things",
@@ -105,10 +106,9 @@ export const preSchool = [
   },
 ];
 
-
 export const Grades_K_4 = [
   {
-    id : 1,
+    id: 1,
     name: "Attention",
     questions: [
       "Is forgetful in daily/routine activities",
@@ -123,7 +123,7 @@ export const Grades_K_4 = [
     ],
   },
   {
-    id : 2,
+    id: 2,
     name: "Gross and Fine Motor Skills",
     questions: [
       "Dislikes and/or avoids writing and drawing tasks",
@@ -137,7 +137,7 @@ export const Grades_K_4 = [
     ],
   },
   {
-    id : 3,
+    id: 3,
     name: "Language",
     questions: [
       "Demonstrates slow and halting speech, using lots of fillers (e.g., uh, um, and, you know, so)",
@@ -160,7 +160,7 @@ export const Grades_K_4 = [
     ],
   },
   {
-    id : 4,
+    id: 4,
     name: "Math",
     questions: [
       "Has difficulty estimating (e.g., quantity, value)",
@@ -177,7 +177,7 @@ export const Grades_K_4 = [
     ],
   },
   {
-    id : 5,
+    id: 5,
     name: "Reading",
     questions: [
       " Dislikes and/or avoids learning letters or reading",
@@ -198,7 +198,7 @@ export const Grades_K_4 = [
     ],
   },
   {
-    id : 6,
+    id: 6,
     name: "Social and Emotional  Skills",
     questions: [
       "Has trouble knowing how to share/express feelings",
@@ -208,7 +208,7 @@ export const Grades_K_4 = [
     ],
   },
   {
-    id : 7,
+    id: 7,
     name: "Written Language",
     questions: [
       "Fails to develop ideas in writing (e.g., written work is incomplete, too brief or disorganized)",
@@ -225,7 +225,7 @@ export const Grades_K_4 = [
     ],
   },
   {
-    id : 8,
+    id: 8,
     name: "Other",
     questions: [
       "Is disorganized and poor at planning",
@@ -238,10 +238,9 @@ export const Grades_K_4 = [
   },
 ];
 
-
 export const Grades_5_8 = [
   {
-    id : 1,
+    id: 1,
     name: "Attention",
     questions: [
       "Is forgetful in daily/routine activities",
@@ -256,7 +255,7 @@ export const Grades_5_8 = [
     ],
   },
   {
-    id : 2,
+    id: 2,
     name: "Gross and Fine Motor Skills",
     questions: [
       "Dislikes and/or avoids writing and drawing tasks",
@@ -265,7 +264,7 @@ export const Grades_5_8 = [
     ],
   },
   {
-    id : 3,
+    id: 3,
     name: "Language",
     questions: [
       "Demonstrates slow and halting speech, using lots of fillers (e.g., uh, um, and, you know, so)",
@@ -286,7 +285,7 @@ export const Grades_5_8 = [
     ],
   },
   {
-    id : 4,
+    id: 4,
     name: "Math",
     questions: [
       "Has difficulty estimating (e.g., quantity, value)",
@@ -301,7 +300,7 @@ export const Grades_5_8 = [
     ],
   },
   {
-    id : 5,
+    id: 5,
     name: "Reading",
     questions: [
       " Dislikes and/or avoids learning letters or reading",
@@ -318,7 +317,7 @@ export const Grades_5_8 = [
     ],
   },
   {
-    id : 6,
+    id: 6,
     name: "Social and Emotional  Skills",
     questions: [
       "Has trouble knowing how to share/express feelings",
@@ -327,7 +326,7 @@ export const Grades_5_8 = [
     ],
   },
   {
-    id : 7,
+    id: 7,
     name: "Written Language",
     questions: [
       "Fails to develop ideas in writing (e.g., written work is incomplete, too brief or disorganized)",
@@ -342,10 +341,9 @@ export const Grades_5_8 = [
   },
 ];
 
-
 export const High_School_Young_Adult = [
   {
-    id : 1,
+    id: 1,
     name: "Attention",
     questions: [
       "Is forgetful in daily/routine activities",
@@ -360,7 +358,7 @@ export const High_School_Young_Adult = [
     ],
   },
   {
-    id : 2,
+    id: 2,
     name: "Gross and Fine Motor Skills",
     questions: [
       "Dislikes and/or avoids writing and drawing tasks",
@@ -369,7 +367,7 @@ export const High_School_Young_Adult = [
     ],
   },
   {
-    id : 3,
+    id: 3,
     name: "Language",
     questions: [
       "Demonstrates slow and halting speech, using lots of fillers (e.g., uh, um, and, you know, so)",
@@ -386,7 +384,7 @@ export const High_School_Young_Adult = [
     ],
   },
   {
-    id : 4,
+    id: 4,
     name: "Math",
     questions: [
       "Has difficulty estimating (e.g., quantity, value)",
@@ -401,7 +399,7 @@ export const High_School_Young_Adult = [
     ],
   },
   {
-    id : 5,
+    id: 5,
     name: "Reading",
     questions: [
       " Dislikes and/or avoids learning letters or reading",
@@ -414,7 +412,7 @@ export const High_School_Young_Adult = [
     ],
   },
   {
-    id : 6,
+    id: 6,
     name: "Social and Emotional  Skills",
     questions: [
       "Has trouble knowing how to share/express feelings",
@@ -423,7 +421,7 @@ export const High_School_Young_Adult = [
     ],
   },
   {
-    id : 7,
+    id: 7,
     name: "Written Language",
     questions: [
       "Fails to develop ideas in writing (e.g., written work is incomplete, too brief or disorganized)",

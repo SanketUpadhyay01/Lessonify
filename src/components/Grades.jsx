@@ -1,30 +1,57 @@
-import React from 'react'
-import {preSchool} from '../Data/data'
+import React from "react";
+import { preSchool,Grades_K_4,High_School_Young_Adult, Grades_5_8  } from "../Data/data";
 
-const Grades = ({setData}) => {
+const Grades = ({ setData }) => {
   return (
-   
     <div className="container">
-        <div className="row p-4">
+      <h1
+        style={{ fontWeight: "bold" }}
+        className="row p-4 text-primary display-4"
+      >
         What grade is the person in?
-        </div>
-          <div className="row p-4">
-          Signs of LDs can be detected in children as young as 4. But often, signs don’t show up (or are not noticed) until grades 3-5 —or even later in life. And of course, no two people are exactly alike, even if they have the same type of LD.
-          </div>
+      </h1>
+      <p className="row p-4 w-75 lead text-dark">
+        Signs of LDs can be detected in children as young as 4. But often, signs
+        don’t show up (or are not noticed) until grades 3-5 —or even later in
+        life. And of course, no two people are exactly alike, even if they have
+        the same type of LD.
+      </p>
       <div className="row">
-        <div className="col-md-8 ">
+        <div className="col-md-8">
           <div className="row">
-            <button onClick={()=>setData(preSchool)} className="col-md-5  p-5 m-3 btn btn-outline-primary">Preschool</button>
-            <button className="col-md-5  p-5 m-3 btn btn-outline-primary">Grades K-4</button>
-            <button className="col-md-5 p-5  m-3 btn btn-outline-primary">Grades 5-8</button>
-            <button className="col-md-5 p-5 m-3 btn btn-outline-primary">High School / Young Adult</button>
+            <button
+              onClick={() => setData(preSchool)}
+              className="col-md-5  p-5 m-3 btn btn-outline-primary"
+            >
+              <h3>Preschool</h3>
+            </button>
+            <button onClick={() => setData(Grades_K_4)} className="col-md-5  p-5 m-3 btn btn-outline-primary">
+              <h3>Grades K-4</h3>
+            </button>
+            <button onClick={() => setData( Grades_5_8 )} className="col-md-5 p-5  m-3 btn btn-outline-primary">
+              <h3>Grades 5-8</h3>
+            </button>
+            <button onClick={() => setData(High_School_Young_Adult)} className="col-md-5 p-5 m-3 btn btn-outline-primary">
+              <h3>High School / Young Adult</h3>
+            </button>
           </div>
         </div>
-        <div style={{height:"300px"}} className="btn btn-primary mt-3 col-md-4"></div>
+        <div
+          style={{ height: "auto",boxShadow:"inset 0px 0px 0px 10px white"}}
+          className="btn btn-primary mt-3 col-md-4 text-center "
+        >
+          <h1 className="p-3 mt-4">Did you know?</h1>
+          <br />
+          <p className="m-2" >
+            Researchers have used brain imaging technology to study the
+            structure of the brain and how it works. Comparing people with and
+            without LDs, they found differences in brain structures and in how
+            the brain works when reading and doing math.
+          </p>
+        </div>
       </div>
     </div>
-    
-  )
-}
+  );
+};
 
-export default Grades
+export default Grades;
