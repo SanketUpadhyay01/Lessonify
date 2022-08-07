@@ -23,7 +23,9 @@ const SingleCategory = ({ current, checked, setChecked, setCount }) => {
         Then select all the applicable scenarios below.
       </h3>
       <div className="p-3"></div>
+      <ul>
       {current.questions.map((item, i) => (
+      <li>
         <div className="row">
           <div
             style={{ color: "black", fontWeight: "400" }}
@@ -31,7 +33,9 @@ const SingleCategory = ({ current, checked, setChecked, setCount }) => {
           >
             {item}
           </div>
+         
           <div className="col-md-4">
+         
             <input
               style={{
                 accentColor: "powderblue",
@@ -46,7 +50,9 @@ const SingleCategory = ({ current, checked, setChecked, setCount }) => {
             />
           </div>
         </div>
+        </li>
       ))}
+      </ul>
     </div>
   );
 };

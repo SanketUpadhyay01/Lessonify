@@ -37,10 +37,10 @@ const Grades = ({ setData }) => {
           </div>
         </div>
         <div
-          style={{ height: "auto",boxShadow:"inset 0px 0px 0px 10px white"}}
+          style={{ height: "300px",boxShadow:"inset 0px 0px 0px 10px white"}}
           className="btn btn-primary mt-3 col-md-4 text-center "
         >
-          <h1 className="p-3 mt-4">Did you know?</h1>
+          <h1 className="p-2 mt-4">Did you know?</h1>
           <br />
           <p className="m-2" >
             Researchers have used brain imaging technology to study the
