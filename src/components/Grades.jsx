@@ -23,16 +23,16 @@ const Grades = ({ setData }) => {
               onClick={() => setData(preSchool)}
               className="col-md-5  p-5 m-3 btn btn-outline-primary"
             >
-              <h3>Preschool</h3>
+              <h5>Preschool</h5>
             </button>
             <button onClick={() => setData(Grades_K_4)} className="col-md-5  p-5 m-3 btn btn-outline-primary">
-              <h3>Grades K-4</h3>
+              <h5>Grades K-4</h5>
             </button>
             <button onClick={() => setData( Grades_5_8 )} className="col-md-5 p-5  m-3 btn btn-outline-primary">
-              <h3>Grades 5-8</h3>
+              <h5>Grades 5-8</h5>
             </button>
             <button onClick={() => setData(High_School_Young_Adult)} className="col-md-5 p-5 m-3 btn btn-outline-primary">
-              <h3>High School / Young Adult</h3>
+              <h5>High School / Young Adult</h5>
             </button>
           </div>
         </div>
@@ -40,9 +40,9 @@ const Grades = ({ setData }) => {
           style={{ height: "300px",boxShadow:"inset 0px 0px 0px 10px white"}}
           className="btn btn-primary mt-3 col-md-4 text-center "
         >
-          <h1 className="p-2 mt-4">Did you know?</h1>
+          <h2 className="p-2 mt-3 text-white">Did you know?</h2>
           <br />
-          <p className="m-2" >
+          <p className="m-2 text-dark" >
             Researchers have used brain imaging technology to study the
             structure of the brain and how it works. Comparing people with and
             without LDs, they found differences in brain structures and in how
