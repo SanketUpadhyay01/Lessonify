@@ -40,9 +40,9 @@ const Grades = ({ setData }) => {
           style={{ height: "300px",boxShadow:"inset 0px 0px 0px 10px white"}}
           className="btn btn-primary mt-3 col-md-4 text-center "
         >
-          <h1 className="p-2 mt-4">Did you know?</h1>
+          <h2 className="p-2 mt-3">Did you know?</h2>
           <br />
-          <p className="m-2" >
+          <p className="m-2 text-white" >
             Researchers have used brain imaging technology to study the
             structure of the brain and how it works. Comparing people with and
             without LDs, they found differences in brain structures and in how

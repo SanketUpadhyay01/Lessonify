@@ -49,9 +49,9 @@ const Categories = ({ data, selected }) => {
           style={{ height: "300px", boxShadow: "inset 0px 0px 0px 10px white" }}
           className="btn btn-primary mt-3 col-md-4 text-center "
         >
-          <h1 className="p-3 mt-4">Did you know?</h1>
+          <h2 className="p-3 mt-4">Did you know?</h2>
           <br />
-          <p className="m-2">
+          <p className="m-2 text-white">
             Many children with dyslexia also have dyscalculia. And almost half
             of the children who have ADHD also have LD. Learn more from NCLD’s
             “The State of LD” report.

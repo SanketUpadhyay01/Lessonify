@@ -14,10 +14,10 @@ const NavBar = ()=>{
         <Link  className="navbar-brand" to="/" >
            <img src="images/newLogo.png" alt="Logo" className="img-fluid" style={{'maxWdth': '80%','maxHeight':'90%'}}/>
         </Link>
-          <Nav.Link as={Link} to ={"/home"} >Home</Nav.Link>
-          <Nav.Link as={Link} to ={"/screening"}>Screening</Nav.Link>
+          <a href ={"/home"} >Home</a>
+          <a href={"/screening"}>Screening</a>
           <Nav.Item className="ms-auto">
-              <Nav.Link as={Link} to ={"/signup"}>Sign Up</Nav.Link>
+              <a href ={"/signup"}>Sign Up</a>
           </Nav.Item>
         </Nav>
       </Container>
