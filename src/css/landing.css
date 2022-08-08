@@ -1,0 +1,576 @@
+/* MAIN */
+div {
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 992px)
+{.d-lg-flex {
+    display: flex!important;
+}}
+/* @media (min-width: 768px)
+{.container {
+    max-width: 720px;
+}}  */
+.bg_cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.header-hero {
+    height: 800px;
+    position: relative;
+    z-index: 5;
+}
+.header-hero h2{
+    
+       padding: 8px;
+        border-radius: 4px;
+        margin: 0 0 20px 200px;
+        
+        width: 500px;
+
+    
+}
+
+
+.header-play{
+    margin: 0 0 40px 170px;
+}
+.analysis-title{
+    margin-top: -20px;
+    font-size: 1rem;
+    width: 600px;
+    
+}
+.justify-content-center div{
+    display: flex;
+    justify-content: center;
+    
+}
+.single-analysis-counter p{
+    width: 200px;
+}
+.analysis-counter{
+  margin-left: 90px;
+}
+.about-title{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 767px)
+{.header-hero {
+    height: auto;
+}}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 992px)
+{.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}}
+.header-hero-image {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 47%;
+    height: 100%;
+}
+@media (max-width: 767px)
+{.header-hero-image {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 50px;
+}}
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{.header-hero-content .hero-title {
+    font-size: 50px;
+}}
+.header-hero-content .hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+ @media (max-width: 767px)
+{.header-hero-content .hero-title {
+    font-size: 24px;
+}} 
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+ .fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+h2 {
+    padding: 8px;
+    border-radius: 4px;
+    margin: 0 0 40px 20px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #393E46;
+    font-family: "Raleway", sans-serif;
+    margin: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #404040;
+    margin: 0px;
+}
+.h2, h2 {
+    font-size: calc(1.325rem + .9vw);
+}
+.header-hero-content .header-play {
+    padding-top: 60px;
+}
+@media (max-width: 767px)
+{.header-hero-content {
+    padding-top: 150px;
+}}
+.header-hero-content .header-play .play-btn {
+    padding: 0 30px;
+    height: 66px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.d-flex {
+    display: flex!important;
+}
+.header-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+
+/* WELCOME */
+
+@media (max-width: 767px)
+{.header-shape {
+    bottom: -3px;
+}}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+img {
+    max-width: 100%;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+a {
+    text-decoration: none;
+    color: #1cbe99;
+    transition: .5s ease;
+}
+
+.about-title .title span{
+    font-weight: 700;
+}
+.about-title .title {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 32px;
+}
+.about-title .welcome {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #00cfc6;
+    font-family: "Open Sans", sans-serif;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.about-content .about-line li:nth-of-type(1) {
+    width: 40px;
+}
+.about-image img {
+    width: 100%;
+}
+.about-content .about-line li {
+    height: 5px;
+    background: -webkit-linear-gradient(left, #1cbe99 0%, #05de7d 100%);
+    background: -o-linear-gradient(left, #1cbe99 0%, #05de7d 100%);
+    background: linear-gradient(to right, #1cbe99 0%, #05de7d 100%);
+    display: inline-block;
+    border-radius: 50px;
+    margin-right: 3px;
+    opacity: 0.2;
+}
+.about-content .about-line {
+    padding-top: 10px;
+}
+.text {
+    font-size: 1.2rem;
+    color: rgb(87, 86, 86);
+}
+.about-content .title {
+    font-size: 32px;
+    font-weight: 500;
+}
+.about-content .text {
+    margin-top: 15px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+
+
+/* ANALYSIS */
+.pt-115 {
+    padding-top: 115px;
+}
+.pb-120 {
+    padding-bottom: 120px;
+}
+.pt-115 {
+    padding-top: 115px;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
+.pt-110 {
+    padding-top: 110px;
+}
+.analysis-title .title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+.single-analysis-counter .count .plus {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.single-analysis-counter .text {
+    color: #fff;
+    text-transform: uppercase;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{.analysis-title .title {
+    font-size: 50px;
+}}
+.analysis-counter {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding-bottom: 46px;
+}
+@media (min-width: 768px)
+{.col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}}
+.mt-30 {
+    margin-top: 30px;
+}
+.single-analysis-counter .count {
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    line-height: 65px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{.single-analysis-counter .count {
+    font-size: 70px;
+}}
+@media (max-width: 767px)
+{.analysis-title .title {
+    font-size: 24px;
+}}
+@media (max-width: 767px)
+{.single-analysis-counter .count {
+    font-size: 38px;
+}}
+i, span, a {
+    display: inline-block;
+}
+i, span, a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.text {
+    font-size: 1.2rem;
+    color: rgb(87, 86, 86);
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* EXTRA */
+/* #home #plusmod {
+    margin: 0 0 -140px;
+}
+#plusmod {
+    text-align: center;
+    vertical-align: top;
+}
+*, blockquote, body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, html, input, label, li, ol, p, pre, td, th, ul {
+    margin: 0;
+    padding: 0;
+}
+#home #plusmod .mod {
+    background: #67cbff;
+}
+#plusmod .mod, #plusmod .plus {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+#plusmod .mod {
+    background: #67cbff;
+    border-radius: 8px;
+    height: 320px;
+    padding: 35px 3%;
+    width: 30%;
+}
+#plusmod .mod h3 {
+    color: #fff;
+    font-family: PT Sans,sans-serif;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+#plusmod .plus {
+    color: #2a2a2a;
+    font-size: 110px;
+    font-weight: 900;
+    margin: 80px -1.25% 0;
+    z-index: 99;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#plusmod .mod p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+#plusmod .mod img {
+    bottom: 0;
+    left: 50%;
+    margin: 0 0 0 -30%;
+    position: absolute;
+    width: 58%;
+}
+fieldset, img {
+    border: 0;
+}
+*, blockquote, body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, html, input, label, li, ol, p, pre, td, th, ul {
+    margin: 0;
+    padding: 0;
+}
+#plusmod .mod {
+    background: #eaa434;
+    border-radius: 8px;
+    height: 245px;
+    padding: 35px 3%;
+    width: 25%;
+} 
+@media only screen and (max-width: 1100px)
+{.wrapper {
+    padding: 0 2%;
+    width: 96%;
+}}
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 1100px;
+}
+@media only screen and (max-width: 730px)
+{.wrapper {
+    padding: 0 6%;
+    width: 88%;
+}}
+@media only screen and (max-width: 730px)
+{#plusmod .mod img {
+    display: none;
+    max-width: 190px;
+}}
+@media only screen and (max-width: 730px)
+{#home #plusmod .mod:first-child, #home #plusmod .mod:nth-child(3), #home #plusmod .mod:nth-child(5) {
+    background-size: 180px auto;
+}} */
+
+
+
+/* TEXT */
+.pt-70 {
+    padding-top: 70px;
+}
+.moto-text {
+    font-size: 1.2rem;
+    margin-bottom: 80px;
+    color: rgb(87, 86, 86);
+}
+
+
+
+/* FOOTER */
+
+#footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.footer-area {
+    position: relative;
+    padding-top: 90px;
+}
+.footer-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.pt-30 {
+    padding-top: 30px;
+}
+.pb-70 {
+    padding-bottom: 70px;
+}
+@media (min-width: 576px)
+{.col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}}
+@media (min-width: 576px)
+{.order-sm-1 {
+    order: 1;
+}}
+@media (min-width: 576px)
+{.order-sm-1 {
+    order: 1!important;
+}}
+@media (min-width: 576px)
+{.order-sm-3 {
+    order: 3;
+}}
+.pt-40 {
+    padding-top: 40px;
+}
+.footer-title .title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul, ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.footer-link ul li {
+    margin-top: 25px;
+}
+.footer-link ul li a {
+    font-size: 16px;
+    color: #fff;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+@media (min-width: 576px)
+{.order-sm-4 {
+    order: 4!important;
+}}
+.footer-contact .text {
+    font-size: 16px;
+    padding-top: 15px;
+    color: #fff;
+}
+
+
+
+
+
+
