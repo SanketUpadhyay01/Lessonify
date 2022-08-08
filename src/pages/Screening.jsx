@@ -24,7 +24,7 @@ const Screening = () => {
   const PageDisplay = () => {
     
     if (page === 1) {
-      return <Grades setData={setData} />;
+      return <Grades data={data} setData={setData} />;
     } else if (page === 2) {
       return <Categories data={data} selected={selected} />;
     } else if (page > 2 && page < selected.length+3) {

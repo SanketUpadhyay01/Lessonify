@@ -40,7 +40,7 @@ const Categories = ({ data, selected }) => {
                 onClick={() => selection(item, i)}
                 className="col-md-3  p-5 m-3 btn border border-primary"
               >
-                <h5>{item.name}</h5>
+                <h5 style={{fontWeight:"bold",fontSize:"15px"}}>{item.name}</h5>
               </button>
             ))}
           </div>
@@ -49,9 +49,9 @@ const Categories = ({ data, selected }) => {
           style={{ height: "300px", boxShadow: "inset 0px 0px 0px 10px white" }}
           className="btn btn-primary mt-3 col-md-4 text-center "
         >
-          <h2 className="p-3 mt-4">Did you know?</h2>
+          <h2 className="p-2 mt-4 text-white">Did you know?</h2>
           <br />
-          <p className="m-2 text-white">
+          <p className="m-2 text-dark">
             Many children with dyslexia also have dyscalculia. And almost half
             of the children who have ADHD also have LD. Learn more from NCLD’s
             “The State of LD” report.
