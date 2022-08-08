@@ -1,5 +1,5 @@
 import React from "react";
-import { preSchool,Grades_K_4,High_School_Young_Adult, Grades_5_8  } from "../Data/data";
+import { preSchool,Grades_K_4,High_School_Young_Adult, Grades_5_8  } from "./Data/data";
 
 const Grades = ({ setData }) => {
   return (

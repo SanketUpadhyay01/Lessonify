@@ -46,7 +46,7 @@ function Header(props) {
 
                     <li className="nav-item">
                       {/* {props.auth ? ( */}
-                        <NavLink to="/tests" activeclassname="active">
+                        <NavLink to="/assesment" activeclassname="active">
                           Tests
                         </NavLink>
                       {/* ) : null} */}
@@ -63,7 +63,6 @@ function Header(props) {
                     >
                       Sign up
                     </NavLink>
-                  {/* )} */}
                 </div>
 
                 <div className="navbar-btn d-none d-sm-inline-block">

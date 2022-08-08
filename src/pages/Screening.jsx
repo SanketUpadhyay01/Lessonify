@@ -30,7 +30,7 @@ const Screening = () => {
     } else if (page > 2 && page < selected.length+3) {
       return <SingleCategory checked={checked} setChecked={setChecked} setCount={setCount} current={current}/>;
     }
-    else if(page == selected.length+3 && selected.length){
+    else if(page === selected.length+3 && selected.length){
       return <Result selected={selected} />
     }
     
@@ -54,8 +54,6 @@ const Screening = () => {
       setFinish(true)
       //  navigate('/')
     }
-
-
     
     else if(page > 1 ){
       setCurrent(selected[page - 2]);
@@ -74,7 +72,6 @@ const Screening = () => {
      else if(page > 1 ){
       setCurrent(selected[page - 2]);
     }
-
  
   };
   return (
