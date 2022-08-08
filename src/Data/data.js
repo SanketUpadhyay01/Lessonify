@@ -5,6 +5,9 @@ export const preSchool = [
     questions: [
       "Has difficulty sustaining attention in play activities and work tasks",
     ],
+    low : "The results indicate a low risk of a learning disability in Attention.",
+    medium :"Your child is showing risk of a learning disability in the area of Attention.",
+    common:"Children with attention difficulties often have Attention Deficit Hyperactivity Disorder (ADHD). There are 3 types of ADHD: Inattentive, Hyperactive-Impulsive and Combined.",
   },
   {
     id: 2,
@@ -18,6 +21,9 @@ export const preSchool = [
       "Has trouble with buttons, hooks, snaps, zippers, and/or learning to tie shoes",
       "Appears awkward and clumsy by dropping or spilling things, or knocking them over",
     ],
+    low : "The results indicate a low risk of a learning disability in Gross and Fine motor skills.",
+    medium :"Your child is showing risk of a learning disability in the area of Gross and Fine motor skills.",
+    common:"Children with learning disabilities in spelling and writing often have dyslexia and/or dysgraphia. You can read about the similarities of and differences between Dyslexia and Dysgraphia at the about section.",
   },
 
   {
@@ -42,6 +48,9 @@ export const preSchool = [
       "Has difficulty modulating voice (e.g., too soft, too loud)",
       "Demonstrates early delays in learning to speak",
     ],
+    low : "The results indicate a low risk of a learning disability in Language",
+    medium :"Your child is showing risk of a learning disability in the area of Listening.",
+    common:"Children with learning disabilities in this area typically have Specific Language Impairment (SLI). Specific Language Impairment may include difficulties in reading, spelling or writing but also includes weaknesses in listening comprehension.",
   },
   {
     id: 4,
@@ -54,6 +63,9 @@ export const preSchool = [
       "Has difficulty recognizing quantities without counting",
       "Has difficulty with simple counting and one-to-one correspondence between number symbols and objects",
     ],
+    low : "The results indicate a low risk of a learning disability in Math and logic",
+    medium :"Your child is showing risk of a learning disability in the area of Math & Logic. ",
+    common :"Children with a learning disability in the area of math and logic often have dyscalculia. Dyscalculia is a brain-based condition that makes processing numbers and math concepts difficult.",
   },
   {
     id: 5,
@@ -75,6 +87,9 @@ export const preSchool = [
       "Has difficulty tapping or clapping out the syllables in words",
       "Has difficulty recognizing the small units of sounds (phonemes) in spoken words",
     ],
+    low : "The results indicate a low risk of a learning disability in reading",
+    medium : "Your child is showing a risk of a learning disability in Reading.",
+    common: "About 80% of children with a reading disability have dyslexia. Because a simple parent assessment cannot diagnose your child, we strongly recommend more testing. Give your child a more robust test for dyslexia with the Lessonify Dyslexia tests, which will test your child's abilities more thoroughly to give you a more accurate result."
   },
   {
     id: 6,
@@ -84,6 +99,11 @@ export const preSchool = [
       "May not detect or respond appropriately to teasing",
       "Does not pick up on other people’s moods/feelings (e.g., may say the wrong thing at the wrong time)",
     ],
+    low : "The results indicate a low risk of a learning disability in Social and Emotional  Skills.",
+    medium :"Your child is showing risk of a learning disability in Emotion & Self-Control.",
+    common:"Learning disabilities can often have emotional side effects including low self-esteem, tantrums and depression. It is important to help your child build a growth mindset. In Lexercise therapy we provide positive reinforcement and teach mindfulness strategies to improve your child's emotional health while addressing their learning disabilities.",
+    
+    
   },
   {
     id: 7,
@@ -94,6 +114,11 @@ export const preSchool = [
       "Has difficulty remembering shapes of letters and numerals",
       "Dislikes and avoids writing and copying",
     ],
+
+    low : "The results indicate a low risk of a learning disability in Written Language",
+    medium : "Your child is showing a risk of a learning disability in Spelling & Writing. ",
+    common : "Children with learning disabilities in spelling and writing often have dyslexia and/or dysgraphia. You can read about the similarities of and differences between Dyslexia and Dysgraphia at the about section."
+
   },
   {
     id: 8,
