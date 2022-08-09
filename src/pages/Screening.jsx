@@ -5,6 +5,7 @@ import Categories from "../components/Categories";
 import SingleCategory from "../components/singleCategory";
 import {useNavigate} from "react-router-dom"
 import Result from "../components/Result"
+import "../index.css";
 
 const Screening = () => {
   const [page, setPage] = useState(1);
@@ -12,7 +13,7 @@ const Screening = () => {
     window.scrollTo(0, 0)
   }, [page])
   const navigate = useNavigate()
-  
+
   const [data,setData] = useState([]);
   const [selected,setSelected] = useState([])
   const [current,setCurrent] = useState({})
@@ -22,7 +23,7 @@ const Screening = () => {
   console.log(selected);
 
   const PageDisplay = () => {
-    
+
     if (page === 1) {
       return <Grades data={data} setData={setData} />;
     } else if (page === 2) {
@@ -33,7 +34,7 @@ const Screening = () => {
     else if(page === selected.length+3 && selected.length){
       return <Result selected={selected} />
     }
-    
+
   };
   const next = () => {
 
@@ -44,7 +45,7 @@ const Screening = () => {
       setCount(0)
       setChecked({})
     }
-  
+
     setPage((p) => p + 1);
 
     if(page >= selected.length + 2 ){
@@ -54,42 +55,40 @@ const Screening = () => {
       setFinish(true)
       //  navigate('/')
     }
-    
     else if(page > 1 ){
       setCurrent(selected[page - 2]);
     }
- 
+
   };
   const prev = () => {
-   
+
       setPage((p) => p - 1);
 
       if(page >= selected.length + 2 && selected.length){
         setPage((p) => p - 1);
         return;
       }
-    
+
      else if(page > 1 ){
       setCurrent(selected[page - 2]);
     }
- 
   };
   return (
-    <div style={{marginTop:"100px"}}>
-     
+    <div style={{marginTop:"100px"}} className="main_div">
+
       <div className="mt-5">{PageDisplay()}</div>
       <div className="d-flex justify-content-center position-relative m-3">
         <div style={{display:`${finish ? "none" : ""}`}}
         >
           <button
             onClick={prev}
-            className={`${page===1 ? "disabled" : ""} btn btn-lg rounded-0 ms-3 pe-5 pt-2 pb-2 ps-5 btn-outline-primary`}
+            className={`${page===1 ? "disabled" : ""} btn btn-lg rounded-0 ms-3 pe-5 pt-2 pb-2 ps-5 btn-outline-primary-1`}
           >
             Prev
           </button>
           <button
             onClick={next}
-            className={` ${!data.length ? "disabled" : ""} btn btn-lg rounded-0 ms-3 pe-5 pt-2 pb-2 ps-5 btn-outline-primary`}
+            className={` ${!data.length ? "disabled" : ""} btn btn-lg rounded-0 ms-3 pe-5 pt-2 pb-2 ps-5 btn-outline-primary-1`}
           >
             {`${page === selected.length+2 && selected.length ? "Finish" : "Next"}`}
           </button>
