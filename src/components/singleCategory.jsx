@@ -12,18 +12,17 @@ const SingleCategory = ({ current, checked, setChecked, setCount }) => {
 
   return (
     <div className="container">
-      <h1
-        style={{ fontWeight: "bold" }}
-        className="row p-4 text-primary display-4"
+      <h1 style={{fontWeight: "420", fontSize: "40px", textAlign: "left"}}
+        className="row p-4 display-4 heading"
       >
         {current.name}
       </h1>
-      <h3 style={{ fontWeight: "bold" }} className="w-75">
+      <h3 className="w-75 des" style={{fontWeight: "500", padding: "0rem 0.9rem 0rem 0.9rem"}}>
         Think about the person’s behavior over at least the past six months.
         Then select all the applicable scenarios below.
       </h3>
       <div className="p-3"></div>
-      <ul>
+      <ul style={{listStyleType: "disc", color: "black", padding: "0px 35px"}}>
       {current.questions.map((item, i) => (
       <li>
         <div className="row">
@@ -33,12 +32,12 @@ const SingleCategory = ({ current, checked, setChecked, setCount }) => {
           >
             {item}
           </div>
-         
+
           <div className="col-md-4">
-         
+
             <input
               style={{
-                accentColor: "powderblue",
+                accentColor: "#4bb3f9",
                 height: "20px",
                 width: "20px",
               }}
