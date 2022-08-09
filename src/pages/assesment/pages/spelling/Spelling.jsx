@@ -34,8 +34,8 @@ const Spelling = () => {
   return (
     <>
       {(!start && !showResult) && <div style={{ marginTop: '200px' }}>
-        <h1>SPELLSCREEN: Free spelling test</h1>
-        <div style={{ width: '50%', margin: '3rem auto' }}>
+        <h1 className="heading">SPELLSCREEN: Free spelling test</h1>
+        <div style={{ width: '50%', margin: '3rem auto', textAlign: "center"}}>
           <h3>Test your spelling skills</h3>
           <p style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             This is a free spelling test. You will be asked to spell out the words
@@ -47,7 +47,7 @@ const Spelling = () => {
             If you do not spell the word correctly, you will be given a chance to
             correct your spelling.
           </p>
-          <div style={{ margin: '2rem auto' }}><button onClick={startAssessment} style={{ padding: '0.5rem 1rem', borderRadius: '0.5rem' }}>Start</button></div>
+          <div style={{ margin: '2rem auto'}}><button className="grade" onClick={startAssessment} style={{ padding: '0.5rem 1rem', borderRadius: '0.5rem' }}>Start</button></div>
         </div>
       </div>}
       {
