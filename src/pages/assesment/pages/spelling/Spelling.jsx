@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import TextToSpeech from 'text-to-speech-js';
 import { questions } from './assets/questions/questions';
 import SpellQuestion from './components/SpellQuestion';
 
