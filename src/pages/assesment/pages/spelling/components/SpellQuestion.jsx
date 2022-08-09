@@ -16,6 +16,7 @@ function SpellQuestion({ question, checkAnswer, next, size, index, showResult })
                 <figcaption>Listen to the Word: </figcaption>
                 <audio
                   controls
+                  autoPlay
                   src={question.src}
                   type="audio/mpeg"
                 >
@@ -25,7 +26,13 @@ function SpellQuestion({ question, checkAnswer, next, size, index, showResult })
               </figure>
               <div style={{ width: '60%', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', columnSpacing: '2rem' }}>
                 <input style={{ color: 'black' }} value={spell} onChange={(e) => setSpell(e.target.value)} type="text" id="name" name="name" minlength="4" maxlength="8" size="10" />
-                <button className='btn btn-outline-primary' style={{ marginLeft: '2rem' }} onClick={() => {checkAnswer(spell, question.answer); next(() => {if(index<size-1){return index+1} else { showResult(true); return index} } )} }>{index < size-1 ? 'Next': 'Finish'}</button>
+                <button className='btn btn-outline-primary' style={{ marginLeft: '2rem' }} 
+                    onClick={() => {
+                      setSpell(() => ""); 
+                      checkAnswer(spell, question.answer); 
+                      next(() => {if(index<size-1){return index+1} else { showResult(true); return index} } )} }>
+                        {index < size-1 ? 'Next': 'Finish'}
+                </button>
               </div>
           </div>
       </div>
