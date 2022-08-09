@@ -9,9 +9,9 @@ function Header(props) {
           <div className="row">
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg">
-                <a className="navbar-brand" href="index.html">
+                <NavLink className="navbar-brand" to="/">
                   <img src="images/newLogo.png" alt="Logo" />
-                </a>
+                </NavLink>
                 <button
                   className="navbar-toggler"
                   type="button"
@@ -46,7 +46,7 @@ function Header(props) {
 
                     <li className="nav-item">
                       {/* {props.auth ? ( */}
-                        <NavLink to="/tests" activeclassname="active">
+                        <NavLink to="/assesment" activeclassname="active">
                           Tests
                         </NavLink>
                       {/* ) : null} */}
@@ -63,7 +63,6 @@ function Header(props) {
                     >
                       Sign up
                     </NavLink>
-                  {/* )} */}
                 </div>
 
                 <div className="navbar-btn d-none d-sm-inline-block">

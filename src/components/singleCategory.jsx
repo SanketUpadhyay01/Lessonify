@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const SingleCategory = ({ current, checked, setChecked, setCount }) => {
   const handleToggle = (i) => () => {
