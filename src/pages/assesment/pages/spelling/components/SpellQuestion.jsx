@@ -25,16 +25,18 @@ function SpellQuestion({ question, checkAnswer, next, size, index, showResult })
                   <code> audio </code> element.
                 </audio>
               </figure>
-              <div style={{ width: '60%', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', columnSpacing: '2rem', textAlign: "center", margin: "0 auto"}}>
+
+              <form onSubmit={(e)=>e.preventDefault()} style={{ width: '60%', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', columnSpacing: '2rem', textAlign: "center", margin: "0 auto" }}>
                 <input style={{ color: 'black' }} value={spell} onChange={(e) => setSpell(e.target.value)} type="text" id="name" name="name" minlength="4" maxlength="8" size="10" />
-                <button className='next' style={{ marginLeft: '2rem' }}
+                <button type="submit" className='next' style={{ marginLeft: '2rem' }}
                     onClick={() => {
+
                       setSpell(() => "");
                       checkAnswer(spell, question.answer);
                       next(() => {if(index<size-1){return index+1} else { showResult(true); return index} } )} }>
                         {index < size-1 ? 'Enter': 'Finish'}
                 </button>
-              </div>
+              </form>
           </div>
       </div>
     </>
