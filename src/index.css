@@ -21,8 +21,6 @@ code {
 .did_you{
   background-color: #4bb3f9;
   color: white;
-  height: 374px;
-  padding: 33px 10px;
   border-radius: 5px;
 }
 /* .btn-outline-primary {
@@ -109,4 +107,22 @@ code {
   border: 2px solid #4bb3f9;
   background-color: #4bb3f9;
   color: white;
+}
+
+.progress{
+  background-color: #d8d8d8;
+  border-radius: 10px;
+  position: relative;
+  margin: 25px 0;
+  height: 30px;
+  margin:auto;
+  width: 200px;
+}
+.progDone{
+  background: #4bb3f9;
+   border-radius: 10px;
+  color: black;
+  width: 0;
+  opacity: 0; 
+  transition: 1s ease 0.3s;
 }

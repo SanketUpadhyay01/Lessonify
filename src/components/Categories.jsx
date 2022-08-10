@@ -15,9 +15,8 @@ const Categories = ({ data, selected }) => {
   };
 
   return (
-    <div className="container">
-    <div className="row">
-    <div className="col-md-8">
+    <div className="m-4">
+ 
       <h1
         style={{fontWeight: "420", fontSize: "40px", textAlign: "left"}}
         className="row p-4 display-4 heading">
@@ -29,9 +28,8 @@ const Categories = ({ data, selected }) => {
         life. And of course, no two people are exactly alike, even if they have
         the same type of LD.
       </p>
-
-        <div style={{paddingLeft:"1.5rem"}}>
           <div className="row">
+    <div className="col-md-8">
             {data.map((item, i) => (
               <button
                 key={i}
@@ -42,13 +40,11 @@ const Categories = ({ data, selected }) => {
                 onClick={() => selection(item, i)}
                 className="col-md-3  p-5 m-3 grade"
               >
-                <h5 style={{fontWeight: 550}}>{item.name}</h5>
+                <p style={{fontWeight: 700,color:"black"}}>{item.name}</p>
               </button>
             ))}
           </div>
-        </div>
-    </div>
-    <div className="did_you mt-3 col-md-4 text-center ">
+    <div style={{height:"400px"}} className="did_you mt-5 col-md-4 text-center">
           <h1 className="p-3 mt-4"  style={{color: "white"}}>Did you know?</h1>
           <br />
           <p className="m-2 did_you_know">
