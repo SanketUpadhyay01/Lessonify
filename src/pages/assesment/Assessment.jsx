@@ -9,6 +9,7 @@ const Assessment = () => {
                 <li><NavLink to='/spell'><h3>Spell</h3></NavLink></li>
                 <li> <NavLink to='/read'><h3>Reading</h3></NavLink></li>
                 <li><NavLink to='/math'><h3>Math</h3></NavLink></li>
+                <li><NavLink to='/imagequiz'><h3>ImageQuiz</h3></NavLink></li>
             </ul>
         </div>
     );
