@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom'
 
 const Assessment = () => {
     return (
-        <div style={{ marginTop: '200px' }}>
-            <h1>Assessment</h1>
+        <div style={{ marginTop: '150px'}}>
+            <h1 style={{  backgroundColor: ' #4bb3f9', color: 'white'}}>Assessment </h1>
             <ul type="circle" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                 <li className='mt-2'><NavLink to='/spell'><h3>Spell</h3></NavLink></li>
                 <li className='mt-2'> <NavLink to='/read'><h3>Reading</h3></NavLink></li>
