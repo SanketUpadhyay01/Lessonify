@@ -2,10 +2,10 @@ import React from 'react';
 import "../css/footer.css";
 
 function Footer() {
-    return(
-        <footer id="footer" className="footer-area bg_cover" style={{backgroundImage: "url('./images/footer-bg.jpg')"}}>
+    return (
+        <footer id="footer" className="footer-area bg_cover" style={{ backgroundImage: "url('./images/footer-bg.jpg')" }}>
             <div className="footer-shape">
-                <img src="images/footer-shape.png" alt="footer shape"/>
+                <img src="images/footer-shape.png" alt="footer shape" />
             </div>
             <div className="container">
                 <div className="footer-widget pt-30 pb-70">
@@ -13,9 +13,9 @@ function Footer() {
                         <div className="col-lg-3 col-sm-6 order-sm-1 order-lg-1">
                             <div className="footer-about pt-40 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.3s">
                                 <a href="#">
-                                    <img src="images/newLogo.png" alt="Logo"/>
+                                    <img src="images/newLogo.png" alt="Logo" />
                                 </a>
-                            </div> 
+                            </div>
                         </div>
                         <div className="col-lg-3 col-sm-6 order-sm-3 order-lg-2">
                             <div className="footer-link pt-40 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -27,7 +27,7 @@ function Footer() {
                                     <li><a href="#">Profile</a></li>
                                     <li><a href="#">Practice</a></li>
                                 </ul>
-                            </div> 
+                            </div>
                         </div>
                         <div className="col-lg-3 col-sm-6 order-sm-4 order-lg-3">
                             <div className="footer-link pt-40 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.7s">
@@ -58,10 +58,10 @@ function Footer() {
                                         <li><a href="#"><i className="lni-instagram"></i></a></li>
                                         <li><a href="#"><i className="lni-linkedin"></i></a></li>
                                     </ul>
-                                </div> 
+                                </div>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </footer>
